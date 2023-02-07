@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>$(AssemblyName)</Title>
+    <Authors>devbotas</Authors>
+    <Description>A few flexible and useful binding conveters for WPF.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tevux.Tools.RepositorySettings" Version="1.5.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
