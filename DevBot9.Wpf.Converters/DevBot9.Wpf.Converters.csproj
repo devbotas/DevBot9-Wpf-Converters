@@ -13,8 +13,9 @@
     <RepositoryUrl>https://github.com/devbotas/DevBot9-Wpf-Converters</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageTags>wpf;binding;mvvm</PackageTags>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
   <PropertyGroup>
     <!--Configuring source Link-->
